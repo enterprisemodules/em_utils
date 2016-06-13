@@ -1,0 +1,92 @@
+{
+  "author": "Bert Hajee",
+  "license": "Enterprise Modules Open Source",
+  "name": "enterprisemodules/em_utils",
+  "project_page": "https://github.com/enterprisemodules/em_utils",
+  "source": "https://github.com/enterprisemodules/em_utils",
+  "summary": "Enterprise Modules Utility classes",
+  "version": "1.0.0",
+  "description": "Enterprise Modules Utility classes",
+  "tags": [
+    "utilities"
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "11 SP1"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04"
+      ]
+    },
+    {
+      "operatingsystem": "Solaris",
+      "operatingsystemrelease": [
+        "10",
+        "11"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">=2.7.20"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">=2.7.20"
+    }
+  ]
+}

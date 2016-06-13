@@ -1,0 +1,16 @@
+.DS_Store
+log/
+bin/
+junit/
+tests/
+gemfiles/
+spec/
+tasks/
+.vendor/
+.vagrant/
+tmp/
+Gemfile.lock
+Gemfile
+Rakefile
+.travis.yml
+meta/

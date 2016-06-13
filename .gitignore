@@ -1,0 +1,15 @@
+.bundle
+*.lock
+coverage
+spec/reports
+pkg
+.vagrant
+.vendor
+log
+.byebug_history
+fixtures
+gemfiles
+meta
+Rakefile
+Gemfile
+junit

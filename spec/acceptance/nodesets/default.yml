@@ -1,0 +1,12 @@
+HOSTS:
+  wls1.example.com:
+    roles:
+      - master
+    platform: el-6-x86_64
+    box : enterprisemodules/wls-acceptance-12.2.1
+    hypervisor: vagrant
+CONFIG:
+  vagrant_memsize: 3072
+  vagrant_hostname: wls1.example.com
+  type: foss
+  # log_level: debug
