@@ -12,7 +12,7 @@ To make this an easy process, we have created some helper classes to assist you.
 
 ## Where to put the entitlement files
 
-The best way to distribute the entitlements files to all nodes, is to create a module called `emd_license`, create a directory `files` in it and put all of your entitlements files in there.
+The best way to distribute the entitlements files to all nodes, is to create a module called `em_license`, create a directory `files` in it and put all of your entitlements files in there.
 
 Lets say for example that you have a default Puppet installation and are running in a production environment. The path for all the entitlements files would be: `/etc/puppetlabs/code/production/modules/em_license`
 
