@@ -13,7 +13,7 @@ class em_utils::license::available(
 
   file { 'EM entitlements':
     ensure  => 'directory',
-    path    => "${puppet_confdir}/${path}",
+    path    => "${::puppet_confdir}/${path}",
     source  => "puppet://${server}/modules/${path}",
     recurse => true,
   }
